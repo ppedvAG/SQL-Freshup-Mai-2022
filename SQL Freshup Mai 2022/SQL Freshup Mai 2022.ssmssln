@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# SQL Server Management Studio Solution File, Format Version 18.00
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "SQL Freshup Mai 2022", "SQL Freshup Mai 2022\SQL Freshup Mai 2022.ssmssqlproj", "{6356D1EA-9AFF-4273-915E-2982872B614D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Default|Default = Default|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6356D1EA-9AFF-4273-915E-2982872B614D}.Default|Default.ActiveCfg = Default
+		{8C68AE4B-B32E-4769-A179-D0232FE8A241}.Default|Default.ActiveCfg = Default
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {67102D18-F834-48D1-8BE5-B4CD720A2063}
+	EndGlobalSection
+EndGlobal
