@@ -1,6 +1,7 @@
 
 
-ALTER DATABASE NewStyle SET ACCELERATED_DATABASE_RECOVERY = ON; --Version 1.0
+ALTER DATABASE NewStyle
+SET ACCELERATED_DATABASE_RECOVERY = ON; --Version 1.0
 
 use NewStyle;
 
@@ -15,7 +16,7 @@ GO
 Begin tran
 
 declare @i as int= 1
-while @i< 1000000
+while @i< 500000
 	begin
 		insert into test1 
 		select @i,'XY', @i, GETDATE()
@@ -27,7 +28,7 @@ update test1 set nummer = 100000, Datum= GETDATE()
 delete from test1
 
 ---erst später.. 1:11
-rollback.. 0 Sekunden  ..hä??
+rollback  --.. 0 Sekunden  ..hä??
 
 select * from sys.dm_tran_persistent_version_store
 

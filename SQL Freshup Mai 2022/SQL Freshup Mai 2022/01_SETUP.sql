@@ -13,6 +13,23 @@
 ----------------------------------------
 
 
+GESAMTER RAM - mind 2 GB für OS 
+REGEL: 10 %
+-----------------4 ----------------------------------------16---64
+1                               1
+
+
+0 für MIN
+errechneter Wert für MAX
+
+
+INST1   10
+INST2     8
+INST3     2
+---------------
+			20GB + 4 GB
+akt  16
+
 -->NUMA --Zuordnung Sockel --> RAM Slots.
 --> VM sollte die akt Hardware wiederspiegeln
 --> Vorsicht bei Migration
@@ -48,7 +65,10 @@ eig HDD
 trenne Log von Daten
 Anzahl der Datendateien = Anzahl der Kerne (Max 8)
 T1117 gleiches Wachstum für alle Dateien nur bei autom Wachstum
+ der T 1117 gilt nur solange bis manuell eingeriffen wird...
+ ! tu nie eine Datei von mehreren man vergrößern
 T1118 uniform extents früher manuell setzen
+		nur eine Tabelle pro Block --> vs. Latch
 
 
 MAXDOP
@@ -64,3 +84,30 @@ Min = 0 -- der zählt erst , wenn erreicht
 
 
 */
+
+MAXDOP 
+
+Wieviele Kerne werden max pro ABfrage verwendet?
+sollten max 8  sein
+
+
+
+wieviele werden pro ABfrage verwendet?
+1 Kern oder alle des MAXDOP
+
+
+schulung\Administrator
+ppedv2019!
+
+
+select shipcountry, city, sum(unitprice*quantity)
+from ku
+group by shipcountry, city
+
+
+
+
+
+
+
+

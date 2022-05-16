@@ -42,7 +42,7 @@ declare @vlfcounts table
 
  ALTER DATABASE [testdb] SET SINGLE_USER WITH ROLLBACK IMMEDIATE
 
- use testdb
+ use northwind
  --Highlander Prinzip
 
 

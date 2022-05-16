@@ -44,7 +44,7 @@ BEGIN
 	create_lsn numeric(25,0))
 
 	SET @query = 'DBCC LOGINFO (' + '''' + @dbname + ''') WITH NO_INFOMSGS'
-	IF @majorver < 11
+	IF @majorver < 15
 	BEGIN
 		INSERT INTO #log_info (fileid, file_size, start_offset, FSeqNo, [status], parity, create_lsn)
 		EXEC (@query)

@@ -19,14 +19,10 @@ Recovery= Full
 Gastkonto= aus deaktivert und und vor allem keine Rechte
 
 
+Facets beobachtbare Dinge
+Bedinungen sind meine Regeln
+Regel anwenden = Richtkline
 
-DB Mail
-
-set @i=+1
-
-
-set @i+=1
-set @i=@i+1
 
 
 
