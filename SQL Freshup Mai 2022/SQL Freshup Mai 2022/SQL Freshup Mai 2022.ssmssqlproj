@@ -49,11 +49,11 @@
           <AssociatedConnUserName />
           <FullPath>03_Snapshot.sql</FullPath>
         </FileNode>
-        <FileNode Name="03_Wartiungsplan.sql">
+        <FileNode Name="03_Wartungsplan.sql">
           <AssociatedConnectionMoniker />
           <AssociatedConnSrvName />
           <AssociatedConnUserName />
-          <FullPath>03_Wartiungsplan.sql</FullPath>
+          <FullPath>03_Wartungsplan.sql</FullPath>
         </FileNode>
         <FileNode Name="04_Dynamic Data Masking.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KAIRO:True</AssociatedConnectionMoniker>
@@ -79,6 +79,12 @@
           <AssociatedConnUserName />
           <FullPath>05_Indizes.sql</FullPath>
         </FileNode>
+        <FileNode Name="06_ContainedDB.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>06_ContainedDB.sql</FullPath>
+        </FileNode>
         <FileNode Name="06_QueryStore.sql">
           <AssociatedConnectionMoniker />
           <AssociatedConnSrvName />
@@ -97,6 +103,12 @@
           <AssociatedConnUserName />
           <FullPath>08_Audit.sql</FullPath>
         </FileNode>
+        <FileNode Name="08a_ WaitStats.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>08a_ WaitStats.sql</FullPath>
+        </FileNode>
         <FileNode Name="09_Zeilenversionierung.sql">
           <AssociatedConnectionMoniker />
           <AssociatedConnSrvName />
@@ -108,6 +120,48 @@
           <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>10_DTA.sql</FullPath>
+        </FileNode>
+        <FileNode Name="30_TSQL_CuttedData.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>30_TSQL_CuttedData.sql</FullPath>
+        </FileNode>
+        <FileNode Name="31_TSQL_BatchMode_rowMode.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>31_TSQL_BatchMode_rowMode.sql</FullPath>
+        </FileNode>
+        <FileNode Name="32_TSQL_InlineScalarFunction.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>32_TSQL_InlineScalarFunction.sql</FullPath>
+        </FileNode>
+        <FileNode Name="33_TSQL_AdaptivMemoryGrant.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>33_TSQL_AdaptivMemoryGrant.sql</FullPath>
+        </FileNode>
+        <FileNode Name="34_TSQL__AdaptiveJoins.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>34_TSQL__AdaptiveJoins.sql</FullPath>
+        </FileNode>
+        <FileNode Name="35_TSQL_MemoryGrantFeedback.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>35_TSQL_MemoryGrantFeedback.sql</FullPath>
+        </FileNode>
+        <FileNode Name="ColumnStoreIndex.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>ColumnStoreIndex.sql</FullPath>
         </FileNode>
         <FileNode Name="ContainedDB.sql">
           <AssociatedConnectionMoniker />
@@ -122,8 +176,8 @@
           <FullPath>Fix_VLF.sql</FullPath>
         </FileNode>
         <FileNode Name="Glenn Berry DMVs.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KAIRO:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>KAIRO</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>Glenn Berry DMVs.sql</FullPath>
         </FileNode>
@@ -134,10 +188,28 @@
           <FullPath>GraphDatabase_Shortest.sql</FullPath>
         </FileNode>
         <FileNode Name="Graphdemo.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KAIRO:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>KAIRO</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Graphdemo.sql</FullPath>
+        </FileNode>
+        <FileNode Name="RessControl_Funktion.sql">
           <AssociatedConnectionMoniker />
           <AssociatedConnSrvName />
           <AssociatedConnUserName />
-          <FullPath>Graphdemo.sql</FullPath>
+          <FullPath>RessControl_Funktion.sql</FullPath>
+        </FileNode>
+        <FileNode Name="RessControll_Setup.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KAIRO:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>KAIRO</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>RessControll_Setup.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Ressource zuweisen.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Ressource zuweisen.sql</FullPath>
         </FileNode>
         <FileNode Name="ScopedDatabase_ADR_Fill1.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KAIRO:True</AssociatedConnectionMoniker>
@@ -163,15 +235,27 @@
           <AssociatedConnUserName />
           <FullPath>SQL Script to list VLF counts for all online databases.sql</FullPath>
         </FileNode>
-        <FileNode Name="TemporalTables_1_Aktivieren.sql">
+        <FileNode Name="SQLQuery1.sql">
           <AssociatedConnectionMoniker />
           <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery1.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQuery2.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery2.sql</FullPath>
+        </FileNode>
+        <FileNode Name="TemporalTables_1_Aktivieren.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KAIRO:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>KAIRO</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>TemporalTables_1_Aktivieren.sql</FullPath>
         </FileNode>
         <FileNode Name="TemporalTables_2_Demo.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KAIRO:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>KAIRO</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>TemporalTables_2_Demo.sql</FullPath>
         </FileNode>
@@ -180,6 +264,12 @@
           <AssociatedConnSrvName />
           <AssociatedConnUserName />
           <FullPath>x_QueryStrore.sql</FullPath>
+        </FileNode>
+        <FileNode Name="X_Scoped Database.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KAIRO:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>KAIRO</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>X_Scoped Database.sql</FullPath>
         </FileNode>
         <FileNode Name="X_Spieltabelle.sql">
           <AssociatedConnectionMoniker />
@@ -193,15 +283,33 @@
           <AssociatedConnUserName />
           <FullPath>X-Stats.sql</FullPath>
         </FileNode>
+        <FileNode Name="z_Perfmon_Indikatoren.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:KAIRO:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>KAIRO</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>z_Perfmon_Indikatoren.sql</FullPath>
+        </FileNode>
       </Items>
     </LogicalFolder>
     <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
       <Items>
-        <FileNode Name="SQL Server Freshup.ssmssqlproj">
+        <FileNode Name="SQL Freshup Mai 2022.ssmssqlproj">
           <AssociatedConnectionMoniker />
           <AssociatedConnSrvName />
           <AssociatedConnUserName />
-          <FullPath>SQL Server Freshup.ssmssqlproj</FullPath>
+          <FullPath>SQL Freshup Mai 2022.ssmssqlproj</FullPath>
+        </FileNode>
+        <FileNode Name="SQLPerfmonVorlage.xml">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>SQLPerfmonVorlage.xml</FullPath>
+        </FileNode>
+        <FileNode Name="XEvents_Waits.xml">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>XEvents_Waits.xml</FullPath>
         </FileNode>
       </Items>
     </LogicalFolder>

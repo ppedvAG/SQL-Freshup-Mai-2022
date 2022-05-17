@@ -55,7 +55,7 @@ where
 
 --Noch besser
 select * from contacts 
-    FOR SYSTEM_TIME AS OF '26.11.2021 15:26:04.100' 
+    FOR SYSTEM_TIME AS OF '17.05.2022 16:25:45' 
     where cid =1 
 
 --Neue Spalten
